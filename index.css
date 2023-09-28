@@ -280,8 +280,9 @@ body {
 
     .ABC_container {
         margin: 2rem 0;
-        text-align: center;
-        margin-top: 40px;
+    text-align: center;
+    margin-left: 17px;
+    margin-top: 40px;
     }
 
     .abc {
@@ -312,16 +313,18 @@ body {
 
     .firstPageLeft {
         background-size: cover;
-        background-repeat: no-repeat;
-        margin-left: 17rem;
-        margin-top: 3rem;
+    background-repeat: no-repeat;
+    margin-left: 22rem;
+    margin-top: 3rem;
     }
 
     .firstPageRight {
-        margin-top: -6rem;
-        margin-left: 1rem;
-        background-size: cover;
-        background-repeat: no-repeat;
+        margin-top: -24.4rem;
+    width: 202px;
+    height: 312px;
+    margin-left: 5.4rem;
+    background-size: cover;
+    background-repeat: no-repeat;
     }
 }
 
@@ -569,7 +572,8 @@ body {
 
     .ABC_container_secondPage {
         margin: 2rem 0;
-        text-align: center;
+    text-align: center;
+    margin-left: 11px;
     }
 
     .abc_secondPage {
@@ -599,17 +603,22 @@ body {
     }
 
     .fitness1 {
-        background-size: cover;
+        width: 100px;
+    background-size: cover;
     background-repeat: no-repeat;
-    margin-left: 16rem;
-    margin-top: 1rem;
+    margin-left: 33rem;
+    margin-top: 0rem;
     }
 
     .fitness2 {
-        margin-top: -25.5rem;
-    margin-left: 0rem;
-        background-size: cover;
-        background-repeat: no-repeat;
+        margin-top: -23.5rem;
+    margin-left: 5rem;
+    /* position: fixed; */
+    width: 209px;
+    height: 333px;
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
     }
 }
 
@@ -896,15 +905,18 @@ body {
     .firstPic_thirdPage {
         background-size: cover;
         background-repeat: no-repeat;
-        margin-left: 17rem;
+        margin-left: 29rem;
         margin-top: -6rem;
+
     }
 
     .secondPic_thirdPage {
-        margin-top: -7rem;
-        margin-left: 1rem;
-        background-size: cover;
-        background-repeat: no-repeat;
+        margin-top: -19.3rem;
+    margin-left: 4.8rem;
+    width: 197px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 345px;
     }
 }
 
@@ -1114,7 +1126,7 @@ transform: translateX(0);
     .ABC_container_fourthPage {
         top: -28.9rem;
     position: absolute;
-    left: 58px;
+    left: 84px;
     width: 199px;
     text-align: center;
     }
@@ -1166,13 +1178,14 @@ transform: translateX(0);
     }
 
     .secondPic_fourthPage {
-        width: 18rem;
-    position: absolute;
-    top: -1rem;
-    left: -13px;
-    background-image: url(img/fourthpage1.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+        width: 14rem;
+        height: 22rem;
+        position: absolute;
+        top: 3rem;
+        left: 44px;
+        background-image: url(img/fourthpage1.png);
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 }
 
@@ -1388,7 +1401,7 @@ transform: translateX(0);
     .ABC_container_fifthPage {
         top: -29rem;
     position: absolute;
-    left: 3.2rem;
+    left: 5rem;
     width: 13rem;
     text-align: center;
     }
@@ -1422,13 +1435,13 @@ transform: translateX(0);
 
     .firstPic_fifthPage {
         background-image: url(img/fifthpage2.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    left: -1rem;
-    width: 21.4rem;
-    height: 20rem;
-    top: 2rem;
-    position: absolute;
+        background-size: cover;
+        background-repeat: no-repeat;
+        left: 1rem;
+        width: 21.4rem;
+        height: 20rem;
+        top: 2rem;
+        position: absolute;
 
     }
 
