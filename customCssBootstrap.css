@@ -1,0 +1,9 @@
+/* Override Bootstrap container styles to make it full-width */
+.custom-container {
+    max-width: 100%;
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
